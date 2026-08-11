@@ -1,0 +1,89 @@
+﻿Sample_ID,Planting,Site,PXS,Line,Rep
+KS_E_103,Early,Kansas,Early Kansas,PI656019,2
+KS_E_105,Early,Kansas,Early Kansas,PI656019,3
+KS_E_107,Early,Kansas,Early Kansas,PI656014,2
+KS_E_16,Early,Kansas,Early Kansas,PI656014,1
+KS_E_17,Early,Kansas,Early Kansas,PI533831,1
+KS_E_21,Early,Kansas,Early Kansas,PI642998,1
+KS_E_5,Early,Kansas,Early Kansas,PI566819,1
+KS_E_51,Early,Kansas,Early Kansas,PI656014,3
+KS_E_55,Early,Kansas,Early Kansas,PI534117,2
+KS_E_57,Early,Kansas,Early Kansas,PI597971,1
+KS_E_59,Early,Kansas,Early Kansas,PI597971,3
+KS_E_62,Early,Kansas,Early Kansas,PI656121,3
+KS_E_68,Early,Kansas,Early Kansas,PI566819,2
+KS_E_70,Early,Kansas,Early Kansas,PI576376,3
+KS_E_73,Early,Kansas,Early Kansas,PI534117,3
+KS_E_77,Early,Kansas,Early Kansas,PI642998,2
+KS_E_81,Early,Kansas,Early Kansas,PI597971,2
+KS_E_85,Early,Kansas,Early Kansas,PI534117,1
+KS_E_86,Early,Kansas,Early Kansas,PI642998,3
+KS_E_90,Early,Kansas,Early Kansas,PI576376,2
+KS_E_91,Early,Kansas,Early Kansas,PI656019,1
+KS_E_93,Early,Kansas,Early Kansas,PI656121,1
+KS_E_97,Early,Kansas,Early Kansas,PI566819,3
+KS_R_104,Regular,Kansas,Regular Kansas,PI656121,2
+KS_R_14,Regular,Kansas,Regular Kansas,PI533831,2
+KS_R_18,Regular,Kansas,Regular Kansas,PI656014,3
+KS_R_22,Regular,Kansas,Regular Kansas,PI533831,3
+KS_R_24,Regular,Kansas,Regular Kansas,PI597971,3
+KS_R_29,Regular,Kansas,Regular Kansas,PI656019,3
+KS_R_32,Regular,Kansas,Regular Kansas,PI534117,2
+KS_R_34,Regular,Kansas,Regular Kansas,PI576376,3
+KS_R_38,Regular,Kansas,Regular Kansas,PI533831,1
+KS_R_40,Regular,Kansas,Regular Kansas,PI642998,1
+KS_R_42,Regular,Kansas,Regular Kansas,PI576376,2
+KS_R_47,Regular,Kansas,Regular Kansas,PI656019,1
+KS_R_58,Regular,Kansas,Regular Kansas,PI656014,1
+KS_R_60,Regular,Kansas,Regular Kansas,PI656014,2
+KS_R_65,Regular,Kansas,Regular Kansas,PI656121,2
+KS_R_67,Regular,Kansas,Regular Kansas,PI642998,2
+KS_R_7,Regular,Kansas,Regular Kansas,PI534117,3
+KS_R_72,Regular,Kansas,Regular Kansas,PI566819,2
+KS_R_75,Regular,Kansas,Regular Kansas,PI576376,1
+KS_R_79,Regular,Kansas,Regular Kansas,PI566819,1
+KS_R_8,Regular,Kansas,Regular Kansas,PI642998,3
+KS_R_80,Regular,Kansas,Regular Kansas,PI656121,1
+KS_R_87,Regular,Kansas,Regular Kansas,PI566819,3
+KS_R_88,Regular,Kansas,Regular Kansas,PI534117,1
+KS_R_94,Regular,Kansas,Regular Kansas,PI656121,3
+KS_R_99,Regular,Kansas,Regular Kansas,PI597971,1
+SD_E_1,Early,South Dakota,Early South D,PI576376,1
+SD_E_10,Early,South Dakota,Early South D,PI642998,2
+SD_E_2,Early,South Dakota,Early South D,PI566819,1
+SD_E_3,Early,South Dakota,Early South D,PI642998,1
+SD_E_30,Early,South Dakota,Early South D,PI534117,3
+SD_E_31,Early,South Dakota,Early South D,PI533831,2
+SD_E_36,Early,South Dakota,Early South D,PI576376,3
+SD_E_4,Early,South Dakota,Early South D,PI656019,1
+SD_E_48,Early,South Dakota,Early South D,PI656014,1
+SD_E_49,Early,South Dakota,Early South D,PI534117,1
+SD_E_50,Early,South Dakota,Early South D,PI566819,2
+SD_E_52,Early,South Dakota,Early South D,PI534117,2
+SD_E_56,Early,South Dakota,Early South D,PI656019,1
+SD_E_71,Early,South Dakota,Early South D,PI656121,2
+SD_E_9,Early,South Dakota,Early South D,PI576376,2
+SD_E_92,Early,South Dakota,Early South D,PI656014,3
+SD_E_98,Early,South Dakota,Early South D,PI533831,2
+SD_R_100,Regular,South Dakota,Regular South D,PI656121,2
+SD_R_102,Regular,South Dakota,Regular South D,PI656121,1
+SD_R_11,Regular,South Dakota,Regular South D,PI534117,1
+SD_R_12,Regular,South Dakota,Regular South D,PI656019,3
+SD_R_19,Regular,South Dakota,Regular South D,PI656014,3
+SD_R_20,Regular,South Dakota,Regular South D,PI566819,3
+SD_R_23,Regular,South Dakota,Regular South D,PI656014,1
+SD_R_25,Regular,South Dakota,Regular South D,PI533831,2
+SD_R_26,Regular,South Dakota,Regular South D,PI642998,2
+SD_R_27,Regular,South Dakota,Regular South D,PI656019,1
+SD_R_39,Regular,South Dakota,Regular South D,PI534117,2
+SD_R_41,Regular,South Dakota,Regular South D,PI656014,2
+SD_R_43,Regular,South Dakota,Regular South D,PI597971,1
+SD_R_44,Regular,South Dakota,Regular South D,PI656019,2
+SD_R_45,Regular,South Dakota,Regular South D,PI576376,2
+SD_R_46,Regular,South Dakota,Regular South D,PI533831,1
+SD_R_69,Regular,South Dakota,Regular South D,PI656121,3
+SD_R_76,Regular,South Dakota,Regular South D,PI576376,1
+SD_R_78,Regular,South Dakota,Regular South D,PI576376,3
+SD_R_82,Regular,South Dakota,Regular South D,PI642998,3
+SD_R_89,Regular,South Dakota,Regular South D,PI533831,3
+SD_R_95,Regular,South Dakota,Regular South D,PI566819,2

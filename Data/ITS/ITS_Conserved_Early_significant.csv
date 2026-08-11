@@ -1,0 +1,5 @@
+"ASV","KS_LFC","KS_p","KS_padj","SD_LFC","SD_p","SD_padj","Kingdom","Phylum","Class","Order","Family","Genus","Species"
+"ASV_3",1.37461381208244,1.28487026432517e-09,1.00574327586833e-08,2.49819740274183,4.44908002274191e-30,5.88390833007618e-28,"k__Fungi","p__Ascomycota","c__Dothideomycetes","o__Capnodiales","f__Mycosphaerellaceae","g__Mycosphaerella","s__tassiana"
+"ASV_42",8.0980977134748,0.00650968308744171,0.017283018255547,5.08709124780817,3.92744122952999e-16,2.30846267824596e-14,"k__Fungi","p__Basidiomycota","c__Tremellomycetes","o__Cystofilobasidiales","f__Mrakiaceae","g__Udeniomyces","s__puniceus"
+"ASV_46",3.38955010605287,0.00478936977964207,0.013258377316814,2.4395385627849,0.00127757252804913,0.00750928741486653,"k__Fungi","p__Ascomycota","c__Dothideomycetes","o__Pleosporales","f__Pleosporaceae","g__Pyrenophora","s__tritici-repentis"
+"ASV_119",2.28854821008348,0.000306332042647456,0.00114194929827394,9.06409595803762,0.00238242571815216,0.0126030320490249,"k__Fungi","p__Ascomycota","c__Dothideomycetes","o__Pleosporales","f__Phaeosphaeriaceae","g__Phaeosphaeria","s__"
