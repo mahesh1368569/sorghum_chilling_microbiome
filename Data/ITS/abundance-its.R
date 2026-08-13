@@ -116,3 +116,45 @@ for (i in names(its_phylum_line_plots)) { ggsave(filename = file.path("abundance
 
 list.files(file.path("abundance", "ITS"))
 
+
+# ============================================================
+# RDA or dbRDA
+# ============================================================
+
+library(readxl)
+
+plant <- read_excel ("plant-data.xlsx") %>% as.data.frame()
+
+rownames(plant) <- plant[, 1]
+
+plant = plant[ ,-1]
+
+envits <- trans_env$new(dataset = sorghum_its, add_data = plant)
+
+envits$cal_ordination(method = "RDA", taxa_level = "Genus")
+
+envits$cal_ordination_anova()
+
+envits$cal_ordination_envfit()
+
+envits$trans_ordination(show_taxa = 10, adjust_arrow_length = TRUE, max_perc_env = 0.5, max_perc_tax = 0.5)
+
+p_rdaits <- envits$plot_ordination(plot_color = "Planting", plot_shape = "Site")
+
+p_rdaits
+
+ggsave("rda_ITS.pdf", p_rdaits, w=7, h = 7, dpi = 1000)
+
+envits$res_ordination_R2
+
+envits$res_ordination_terms
+
+envits$res_ordination_envfit
+
+envits$cal_mantel(use_measure = "bray")
+
+envits$res_mantel
+
+env16$cal_mantel(by_group = "Site", use_measure = "bray")
+
+env16$res_mantel

@@ -108,6 +108,18 @@ its_colorset <- c(
   "Others"           = "#BDBDBD"   # neutral grey
 )
 
+
+taxa_colors <- c(
+  "#3B6FB6", "#8064A2", "#D95F5F", "#E69F45", "#56B4C8",
+  "#62A66F", "#C77DAA", "#8C6D31", "#4C956C", "#6C5B7B",
+  "#E07A5F", "#3D5A80", "#81B29A", "#F2CC8F", "#A44A3F",
+  "#748CAB", "#9C6644", "#6D597A", "#B56576", "#5F8D4E",
+  "#457B9D", "#BC6C25", "#7A9E9F", "#9B5DE5", "#577590",
+  "#F28482", "#84A59D", "#A98467", "#778DA9", "#B08968"
+)
+
+
+
 p_phylum <- abund_phylum$plot_bar(others_color = "grey70", legend_text_italic = FALSE) +
   theme_classic(base_size = 14) + 
   scale_fill_manual(values = its_colorset) + labs(
@@ -123,6 +135,7 @@ p_phylum <- abund_phylum$plot_bar(others_color = "grey70", legend_text_italic = 
         legend.text = element_text(size = 12),
         panel.border = element_rect(colour = "black",fill = NA, size = 1))
 
+p_phylum
 
 p_phylum_l <- abund_phylum_L$plot_bar(others_color = "grey70", legend_text_italic = FALSE) +
   theme_classic(base_size = 14) + 
@@ -141,26 +154,28 @@ p_phylum_l <- abund_phylum_L$plot_bar(others_color = "grey70", legend_text_itali
 
 p_phylum_l
 
-ggsave("phylum_abundance.pdf",p_phylum ,width = 7 ,height = 8, dpi = 1000)
-ggsave("phylum_abundance_line.pdf",p_phylum_l ,width = 7 ,height = 8, dpi = 1000)
+ggsave("phylum_abundance.pdf",p_phylum ,width = 7 ,height = 7, dpi = 1000)
+ggsave("phylum_abundance_line.pdf",p_phylum_l ,width = 7 ,height = 7, dpi = 1000)
 
-abund_class <- trans_abund$new(dataset = sorghum, taxrank = "Class", ntaxa = 20, groupmean = "SitePlanting")
+abund_genus <- trans_abund$new(dataset = sorghum, taxrank = "Genus", ntaxa = 21, groupmean = "SitePlanting")
 
-p_class <- abund_class$plot_bar(others_color = "grey70", legend_text_italic = FALSE) +
-  theme_classic(base_size = 14) + labs(
-    x = NULL,
-    y = "Relative abundance (%)",
-    fill = "Phylum") +
-  theme_minimal() +
-  theme(axis.text.x = element_text(angle = 45,hjust = 0.2,size = 14),
+p_genus <- abund_genus$plot_bar(others_color = "#BDBDBD", legend_text_italic = FALSE) +
+  scale_fill_manual(values = taxa_colors) +
+  guides(fill = guide_legend(reverse = TRUE)) +
+  labs(x = NULL, y = "Relative abundance (%)", fill = "Genus") +
+  theme_minimal(base_size = 14) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 14),
         axis.text.y = element_text(size = 14),
-        axis.title.x = element_text(size = 14),
         axis.title.y = element_text(size = 14),
-        strip.text = element_text(size = 14),
+        strip.text = element_text(size = 14, face = "bold"),
         legend.position = "right",
         legend.title = element_text(size = 13),
         legend.text = element_text(size = 12),
-        panel.border = element_rect(colour = "black",fill = NA, size = 1))
+        panel.border = element_rect(colour = "black", fill = NA, linewidth = 1))
+
+p_genus
+
+
 
 ## -----------------------------------------------------------------------------------------###
 ## ------------------------------Line--------------------------------------------------###
